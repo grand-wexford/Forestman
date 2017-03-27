@@ -1,0 +1,70 @@
+body {
+	font: 100%/1.5em Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.ground {
+	width: 700px;
+	height: 500px;
+	position: relative;
+	background-color: #DAEDE2;
+}
+
+.forestman{
+	position: absolute;
+	left:0;
+	top:0;;
+	height: 1px;
+	width: 1px;
+	height: 1px;
+	background-color: #333745;
+	/*background-image: url('../img/ship_small_1.png');*/
+}
+
+
+.rabbit {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: green;
+	will-change: transform;
+	transition: transform 100ms linear;
+}
+
+.bird {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: #EA2E49;
+	will-change: transform;
+	transition: transform 100ms linear;
+}
+
+.big-bird {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: blue;
+	will-change: transform;
+	transition: transform 100ms linear;
+}
+
